@@ -1,4 +1,8 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-# gem "rails"
+gem "chef"
+gem "knife-solo"
+gem "rake"
+gem "serverspec"
+gem "ci_reporter"
