@@ -16,4 +16,5 @@ end
 describe file('/etc/httpd/conf/httpd.conf') do
   it { should be_file }
   its(:content) { should match /ServerName www.okochang.com/ }
+  its(:content) { should match /CustomLog logs/access_log custom/ }
 end
