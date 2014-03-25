@@ -1,0 +1,12 @@
+{
+    "httpd":{
+        "port":80,
+        "server_admin":"admin@serverci.okochang.com",
+        "server_name":"serverci.okochang.com"
+	},
+	"run_list":[
+		"recipe[httpd]"
+
+	]
+}
+
