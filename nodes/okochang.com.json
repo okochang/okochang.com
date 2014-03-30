@@ -5,8 +5,8 @@
         "server_name":"serverci.okochang.com"
 	},
 	"run_list":[
-		"recipe[httpd]"
-
+		"recipe[httpd]",
+        "recipe[td-agent]"
 	]
 }
 
